@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Studio Pipeline",
+      "hasCanvas": false,
+      "bodyTextLen": 791,
+      "bodyTextHash": "c3537c9deb42ae880174c0e98c065e58c1a78d56b6137c270974d953873ea0c9",
+      "bodyTextPrefix": "Studio Pipeline Original episodes, from a brief to a picture. De",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Studio Pipeline",
+      "hasCanvas": false,
+      "bodyTextLen": 791,
+      "bodyTextHash": "c3537c9deb42ae880174c0e98c065e58c1a78d56b6137c270974d953873ea0c9",
+      "bodyTextPrefix": "Studio Pipeline Original episodes, from a brief to a picture. De",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

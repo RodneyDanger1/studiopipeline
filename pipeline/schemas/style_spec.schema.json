@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["palette", "line", "shading_bands", "hold_ratio", "shoot_on", "contrast", "source_note"],
+  "properties": {
+    "palette": { "type": "array", "minItems": 1 },
+    "line": { "type": "object" },
+    "shading_bands": { "type": "integer" },
+    "hold_ratio": { "type": "number" },
+    "shoot_on": { "enum": [1, 2, 3] },
+    "contrast": { "type": "object" },
+    "source_note": { "type": "string", "minLength": 8 }
+  }
+}

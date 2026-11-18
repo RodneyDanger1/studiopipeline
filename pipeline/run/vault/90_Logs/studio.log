@@ -1,0 +1,6 @@
+2026-11-11 09:24:09,426 INFO studio RUN ['/usr/local/bin/ffmpeg', '-y', '-framerate', '24', '-i', '/workspace/pipeline/run/vault/SMOKE/frames/%04d.png', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '20', '-movflags', '+faststart', '/workspace/pipeline/run/deliverables/SMOKE/smoke.mp4']
+2026-11-11 09:24:10,253 INFO studio EXIT 0 in 0.8s
+2026-11-11 09:25:29,693 INFO studio RUN ['/usr/local/bin/ffmpeg', '-y', '-framerate', '24', '-i', '/workspace/pipeline/run/vault/SMOKE/frames/%04d.png', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '20', '-movflags', '+faststart', '/workspace/pipeline/run/deliverables/SMOKE/smoke.mp4']
+2026-11-11 09:25:31,011 INFO studio EXIT 0 in 1.3s
+2026-11-18 06:08:39,112 INFO studio RUN ['/usr/local/bin/ffmpeg', '-y', '-framerate', '24', '-i', '/workspace/pipeline/run/vault/SMOKE/frames/%04d.png', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '20', '-movflags', '+faststart', '/workspace/pipeline/run/deliverables/SMOKE/smoke.mp4']
+2026-11-18 06:08:46,512 INFO studio EXIT 0 in 7.4s

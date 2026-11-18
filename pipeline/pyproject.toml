@@ -1,0 +1,29 @@
+[project]
+name = "studio-pipeline"
+version = "0.1.0"
+description = "Agent-driven original animation pipeline. Controller-friendly, fallback-first."
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = [
+  "pillow>=10",
+  "pyyaml>=6",
+  "jsonschema>=4",
+  "numpy>=1.26",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+studio = "studio.cli:app"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

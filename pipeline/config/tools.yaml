@@ -1,0 +1,23 @@
+tools:
+  ffmpeg:
+    exe: ffmpeg
+    version_args: ["-version"]
+  ffprobe:
+    exe: ffprobe
+    version_args: ["-version"]
+  blender:
+    exe: blender
+    version_args: ["--version"]
+    fallback: pillow_plane
+  tcomposer:
+    exe: tcomposer
+    version_args: ["--help"]
+    fallback: pillow_plane
+  synfig:
+    exe: synfig
+    version_args: ["--version"]
+    fallback: pillow_plane
+  effectcraft:
+    exe: effectcraft-cli
+    version_args: ["--help"]
+    fallback: ffmpeg

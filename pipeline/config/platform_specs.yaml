@@ -1,0 +1,27 @@
+# Checked 2026-11-11.
+# YouTube upload specs: https://support.google.com/youtube/answer/1722171
+# YouTube loudness: https://support.google.com/youtube/answer/6039858 (-14 LUFS target)
+# Shorts length and vertical frame: https://support.google.com/youtube/answer/15424877
+youtube_1080p:
+  container: mp4
+  vcodec: h264
+  width: 1920
+  height: 1080
+  fps: [24, 25, 30]
+  loudness_lufs: -14
+  true_peak_db: -1.0
+shorts_vertical:
+  container: mp4
+  vcodec: h264
+  width: 1080
+  height: 1920
+  fps: [24, 30]
+  max_seconds: 180
+  loudness_lufs: -14
+preview_half:
+  container: mp4
+  vcodec: h264
+  width: 960
+  height: 540
+  fps: [24]
+  loudness_lufs: -14

@@ -1,0 +1,19 @@
+{
+  "shot_id": "EP01_S001",
+  "episode": 1,
+  "lane": "blender_2p5d",
+  "fps": 24,
+  "resolution": [1280, 720],
+  "duration_frames": 96,
+  "shoot_on": 2,
+  "camera": { "move": "dolly_in", "start_z": 10.5, "end_z": 8.2, "ease": "ease_in_out" },
+  "layers": [
+    { "name": "sky", "image": "assets/sky.png", "depth": 40 },
+    { "name": "hills", "image": "assets/hills.png", "depth": 25 },
+    { "name": "hero", "image": "assets/hero.png", "depth": 12 },
+    { "name": "lantern", "image": "assets/lantern.png", "depth": 11 }
+  ],
+  "fx": ["film_grain", "vignette"],
+  "dialogue": [],
+  "notes": "Establishing. Painted plates, xerox cel, lights dying on twos."
+}

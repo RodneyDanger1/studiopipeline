@@ -1,0 +1,7 @@
+.venv/
+.studio_state/
+__pycache__/
+.pytest_cache/
+vault/.secrets.json
+deliverables/
+*.mp4

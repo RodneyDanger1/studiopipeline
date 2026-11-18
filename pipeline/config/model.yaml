@@ -1,0 +1,12 @@
+provider: deepseek
+base_url: https://api.deepseek.com
+model: deepseek-flash
+version: DeepSeek-V4.1-Flash-1017
+thinking_for_json: disabled
+price_in_per_m_peak_usd: 0.30
+price_out_per_m_peak_usd: 1.20
+price_cache_hit_per_m_usd: 0.006
+docs:
+  - https://api-docs.deepseek.com/
+  - https://api-docs.deepseek.com/quick_start/pricing/
+  - https://api-docs.deepseek.com/guides/thinking_mode
